@@ -14,6 +14,10 @@
 		9396F3761F10B25C00DA2F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9396F3741F10B25C00DA2F89 /* LaunchScreen.storyboard */; };
 		9396F3811F10B25D00DA2F89 /* QFTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F3801F10B25D00DA2F89 /* QFTVTests.swift */; };
 		9396F38C1F10B25D00DA2F89 /* QFTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F38B1F10B25D00DA2F89 /* QFTVUITests.swift */; };
+		9396F39A1F10B33400DA2F89 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F3991F10B33400DA2F89 /* NavigationViewController.swift */; };
+		9396F39C1F10B35100DA2F89 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F39B1F10B35100DA2F89 /* TabBarViewController.swift */; };
+		9396F39E1F10B36B00DA2F89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F39D1F10B36B00DA2F89 /* HomeViewController.swift */; };
+		9396F3A01F10B37800DA2F89 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F39F1F10B37800DA2F89 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9396F3871F10B25D00DA2F89 /* QFTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9396F38B1F10B25D00DA2F89 /* QFTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFTVUITests.swift; sourceTree = "<group>"; };
 		9396F38D1F10B25D00DA2F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9396F3991F10B33400DA2F89 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		9396F39B1F10B35100DA2F89 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9396F39D1F10B36B00DA2F89 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9396F39F1F10B37800DA2F89 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				9396F3721F10B25C00DA2F89 /* Assets.xcassets */,
 				9396F3741F10B25C00DA2F89 /* LaunchScreen.storyboard */,
 				9396F3771F10B25C00DA2F89 /* Info.plist */,
+				9396F3991F10B33400DA2F89 /* NavigationViewController.swift */,
+				9396F39B1F10B35100DA2F89 /* TabBarViewController.swift */,
+				9396F39D1F10B36B00DA2F89 /* HomeViewController.swift */,
+				9396F39F1F10B37800DA2F89 /* ProfileViewController.swift */,
 			);
 			path = QFTV;
 			sourceTree = "<group>";
@@ -262,6 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9396F3A01F10B37800DA2F89 /* ProfileViewController.swift in Sources */,
+				9396F39E1F10B36B00DA2F89 /* HomeViewController.swift in Sources */,
+				9396F39C1F10B35100DA2F89 /* TabBarViewController.swift in Sources */,
+				9396F39A1F10B33400DA2F89 /* NavigationViewController.swift in Sources */,
 				9396F36E1F10B25C00DA2F89 /* ViewController.swift in Sources */,
 				9396F36C1F10B25C00DA2F89 /* AppDelegate.swift in Sources */,
 			);
