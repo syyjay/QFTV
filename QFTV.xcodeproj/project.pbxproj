@@ -27,8 +27,16 @@
 		930658A21F317BFC003ABCEC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930658A11F317BFC003ABCEC /* BaseModel.swift */; };
 		930658AD1F317F6D003ABCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930658AB1F317F6D003ABCEC /* Assets.xcassets */; };
 		930658AE1F317F6D003ABCEC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930658AC1F317F6D003ABCEC /* Info.plist */; };
+		930658B11F319A43003ABCEC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930658B01F319A43003ABCEC /* HomeViewModel.swift */; };
+		930658B31F319A62003ABCEC /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930658B21F319A62003ABCEC /* AnchorModel.swift */; };
+		930658B61F319B0A003ABCEC /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930658B51F319B0A003ABCEC /* NetworkTools.swift */; };
+		930658B81F319E79003ABCEC /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930658B71F319E79003ABCEC /* WaterfallLayout.swift */; };
+		930658BF1F319F8A003ABCEC /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930658BD1F319F8A003ABCEC /* HomeViewCell.swift */; };
+		930658C01F319F8A003ABCEC /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 930658BE1F319F8A003ABCEC /* HomeViewCell.xib */; };
+		930658C21F31A325003ABCEC /* KingfisherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930658C11F31A325003ABCEC /* KingfisherExtension.swift */; };
 		9396F3811F10B25D00DA2F89 /* QFTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F3801F10B25D00DA2F89 /* QFTVTests.swift */; };
 		9396F38C1F10B25D00DA2F89 /* QFTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F38B1F10B25D00DA2F89 /* QFTVUITests.swift */; };
+		CFDFB9CF9071CEEEF55ED053 /* Pods_QFTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A444EFA85E5C5838DAA528BB /* Pods_QFTV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		215A6B30F62CB9D77F986AD3 /* Pods-QFTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QFTV/Pods-QFTV.debug.xcconfig"; sourceTree = "<group>"; };
+		43E2E38E23A1F69457D1BA3C /* Pods-QFTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QFTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-QFTV/Pods-QFTV.release.xcconfig"; sourceTree = "<group>"; };
 		930658631F317B25003ABCEC /* AnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorViewController.swift; sourceTree = "<group>"; };
 		930658641F317B25003ABCEC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		930658661F317B25003ABCEC /* HomeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeType.swift; sourceTree = "<group>"; };
@@ -69,6 +79,13 @@
 		930658A11F317BFC003ABCEC /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		930658AB1F317F6D003ABCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = QFTV/Assets.xcassets; sourceTree = "<group>"; };
 		930658AC1F317F6D003ABCEC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QFTV/Info.plist; sourceTree = "<group>"; };
+		930658B01F319A43003ABCEC /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		930658B21F319A62003ABCEC /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		930658B51F319B0A003ABCEC /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		930658B71F319E79003ABCEC /* WaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		930658BD1F319F8A003ABCEC /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		930658BE1F319F8A003ABCEC /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		930658C11F31A325003ABCEC /* KingfisherExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherExtension.swift; sourceTree = "<group>"; };
 		9396F3681F10B25C00DA2F89 /* QFTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9396F37C1F10B25D00DA2F89 /* QFTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9396F3801F10B25D00DA2F89 /* QFTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFTVTests.swift; sourceTree = "<group>"; };
@@ -76,6 +93,7 @@
 		9396F3871F10B25D00DA2F89 /* QFTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9396F38B1F10B25D00DA2F89 /* QFTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFTVUITests.swift; sourceTree = "<group>"; };
 		9396F38D1F10B25D00DA2F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A444EFA85E5C5838DAA528BB /* Pods_QFTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QFTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDFB9CF9071CEEEF55ED053 /* Pods_QFTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,9 +122,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15B28F9DFE25B34A7CB74BFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				215A6B30F62CB9D77F986AD3 /* Pods-QFTV.debug.xcconfig */,
+				43E2E38E23A1F69457D1BA3C /* Pods-QFTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9306585F1F317B25003ABCEC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				930658B41F319AFF003ABCEC /* Tools */,
 				930658981F317BC8003ABCEC /* Base */,
 				930658601F317B25003ABCEC /* Discover */,
 				930658611F317B25003ABCEC /* Home */,
@@ -127,6 +156,8 @@
 		930658611F317B25003ABCEC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				930658BC1F319F78003ABCEC /* View */,
+				930658AF1F319A39003ABCEC /* Other */,
 				930658621F317B25003ABCEC /* Controller */,
 				930658651F317B25003ABCEC /* Model */,
 			);
@@ -146,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				930658661F317B25003ABCEC /* HomeType.swift */,
+				930658B21F319A62003ABCEC /* AnchorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -263,6 +295,33 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		930658AF1F319A39003ABCEC /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				930658B01F319A43003ABCEC /* HomeViewModel.swift */,
+				930658B71F319E79003ABCEC /* WaterfallLayout.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		930658B41F319AFF003ABCEC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				930658B51F319B0A003ABCEC /* NetworkTools.swift */,
+				930658C11F31A325003ABCEC /* KingfisherExtension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		930658BC1F319F78003ABCEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				930658BD1F319F8A003ABCEC /* HomeViewCell.swift */,
+				930658BE1F319F8A003ABCEC /* HomeViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9396F35F1F10B25C00DA2F89 = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +331,8 @@
 				9396F37F1F10B25D00DA2F89 /* QFTVTests */,
 				9396F38A1F10B25D00DA2F89 /* QFTVUITests */,
 				9396F3691F10B25C00DA2F89 /* Products */,
+				15B28F9DFE25B34A7CB74BFB /* Pods */,
+				CAB3992AC1F9B147C1603B24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -312,6 +373,14 @@
 			path = QFTVUITests;
 			sourceTree = "<group>";
 		};
+		CAB3992AC1F9B147C1603B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A444EFA85E5C5838DAA528BB /* Pods_QFTV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -319,9 +388,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9396F3901F10B25D00DA2F89 /* Build configuration list for PBXNativeTarget "QFTV" */;
 			buildPhases = (
+				0B474B4859B681FF5213B760 /* [CP] Check Pods Manifest.lock */,
 				9396F3641F10B25C00DA2F89 /* Sources */,
 				9396F3651F10B25C00DA2F89 /* Frameworks */,
 				9396F3661F10B25C00DA2F89 /* Resources */,
+				62F5B1C05BCE0C515AC3FD43 /* [CP] Embed Pods Frameworks */,
+				C04784AD6037506838BD2F26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -426,6 +498,7 @@
 				930658A01F317BD6003ABCEC /* types.plist in Resources */,
 				9306589E1F317BD6003ABCEC /* QHNormalEmotionSort.plist in Resources */,
 				930658AD1F317F6D003ABCEC /* Assets.xcassets in Resources */,
+				930658C01F319F8A003ABCEC /* HomeViewCell.xib in Resources */,
 				930658AE1F317F6D003ABCEC /* Info.plist in Resources */,
 				9306589F1F317BD6003ABCEC /* QHSohuGifSort.plist in Resources */,
 			);
@@ -447,6 +520,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B474B4859B681FF5213B760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QFTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F5B1C05BCE0C515AC3FD43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QFTV/Pods-QFTV-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFTV/Pods-QFTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C04784AD6037506838BD2F26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QFTV/Pods-QFTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9396F3641F10B25C00DA2F89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -454,19 +583,25 @@
 			files = (
 				9306588B1F317B25003ABCEC /* AppDelegate.swift in Sources */,
 				930658801F317B25003ABCEC /* AnchorViewController.swift in Sources */,
+				930658BF1F319F8A003ABCEC /* HomeViewCell.swift in Sources */,
 				930658831F317B25003ABCEC /* Const.swift in Sources */,
+				930658B11F319A43003ABCEC /* HomeViewModel.swift in Sources */,
 				930658881F317B25003ABCEC /* SUBPageView.swift in Sources */,
 				9306588D1F317B25003ABCEC /* ProfileViewController.swift in Sources */,
 				930658821F317B25003ABCEC /* HomeType.swift in Sources */,
 				930658841F317B25003ABCEC /* NavigationViewController.swift in Sources */,
 				930658851F317B25003ABCEC /* TabBarViewController.swift in Sources */,
+				930658B81F319E79003ABCEC /* WaterfallLayout.swift in Sources */,
 				930658811F317B25003ABCEC /* HomeViewController.swift in Sources */,
 				930658A21F317BFC003ABCEC /* BaseModel.swift in Sources */,
 				9306588C1F317B25003ABCEC /* ViewController.swift in Sources */,
 				930658891F317B25003ABCEC /* SUBTitleStyle.swift in Sources */,
 				9306588A1F317B25003ABCEC /* SUBTitleView.swift in Sources */,
+				930658C21F31A325003ABCEC /* KingfisherExtension.swift in Sources */,
+				930658B61F319B0A003ABCEC /* NetworkTools.swift in Sources */,
 				930658861F317B25003ABCEC /* UIColor-SUBExtension.swift in Sources */,
 				930658871F317B25003ABCEC /* SUBContentView.swift in Sources */,
+				930658B31F319A62003ABCEC /* AnchorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +732,7 @@
 		};
 		9396F3911F10B25D00DA2F89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215A6B30F62CB9D77F986AD3 /* Pods-QFTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -611,6 +747,7 @@
 		};
 		9396F3921F10B25D00DA2F89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E2E38E23A1F69457D1BA3C /* Pods-QFTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
