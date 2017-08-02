@@ -25,8 +25,8 @@
 		9306589F1F317BD6003ABCEC /* QHSohuGifSort.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9306589C1F317BD6003ABCEC /* QHSohuGifSort.plist */; };
 		930658A01F317BD6003ABCEC /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9306589D1F317BD6003ABCEC /* types.plist */; };
 		930658A21F317BFC003ABCEC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930658A11F317BFC003ABCEC /* BaseModel.swift */; };
-		930658A51F317CFA003ABCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930658A31F317CFA003ABCEC /* Assets.xcassets */; };
-		930658A61F317CFA003ABCEC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930658A41F317CFA003ABCEC /* Info.plist */; };
+		930658AD1F317F6D003ABCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930658AB1F317F6D003ABCEC /* Assets.xcassets */; };
+		930658AE1F317F6D003ABCEC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 930658AC1F317F6D003ABCEC /* Info.plist */; };
 		9396F3811F10B25D00DA2F89 /* QFTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F3801F10B25D00DA2F89 /* QFTVTests.swift */; };
 		9396F38C1F10B25D00DA2F89 /* QFTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F38B1F10B25D00DA2F89 /* QFTVUITests.swift */; };
 /* End PBXBuildFile section */
@@ -67,8 +67,8 @@
 		9306589C1F317BD6003ABCEC /* QHSohuGifSort.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = QHSohuGifSort.plist; sourceTree = "<group>"; };
 		9306589D1F317BD6003ABCEC /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
 		930658A11F317BFC003ABCEC /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
-		930658A31F317CFA003ABCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		930658A41F317CFA003ABCEC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930658AB1F317F6D003ABCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = QFTV/Assets.xcassets; sourceTree = "<group>"; };
+		930658AC1F317F6D003ABCEC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = QFTV/Info.plist; sourceTree = "<group>"; };
 		9396F3681F10B25C00DA2F89 /* QFTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9396F37C1F10B25D00DA2F89 /* QFTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QFTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9396F3801F10B25D00DA2F89 /* QFTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFTVTests.swift; sourceTree = "<group>"; };
@@ -208,8 +208,6 @@
 		930658751F317B25003ABCEC /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				930658A31F317CFA003ABCEC /* Assets.xcassets */,
-				930658A41F317CFA003ABCEC /* Info.plist */,
 				930658761F317B25003ABCEC /* AppDelegate.swift */,
 				930658771F317B25003ABCEC /* ViewController.swift */,
 			);
@@ -269,6 +267,8 @@
 			isa = PBXGroup;
 			children = (
 				9396F36A1F10B25C00DA2F89 /* QFTV */,
+				930658AB1F317F6D003ABCEC /* Assets.xcassets */,
+				930658AC1F317F6D003ABCEC /* Info.plist */,
 				9396F37F1F10B25D00DA2F89 /* QFTVTests */,
 				9396F38A1F10B25D00DA2F89 /* QFTVUITests */,
 				9396F3691F10B25C00DA2F89 /* Products */,
@@ -425,8 +425,8 @@
 			files = (
 				930658A01F317BD6003ABCEC /* types.plist in Resources */,
 				9306589E1F317BD6003ABCEC /* QHNormalEmotionSort.plist in Resources */,
-				930658A51F317CFA003ABCEC /* Assets.xcassets in Resources */,
-				930658A61F317CFA003ABCEC /* Info.plist in Resources */,
+				930658AD1F317F6D003ABCEC /* Assets.xcassets in Resources */,
+				930658AE1F317F6D003ABCEC /* Info.plist in Resources */,
 				9306589F1F317BD6003ABCEC /* QHSohuGifSort.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
