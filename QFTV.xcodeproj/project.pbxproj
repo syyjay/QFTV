@@ -13,7 +13,6 @@
 		93016A001F29CC8B00C720B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930169FE1F29CC8B00C720B7 /* AppDelegate.swift */; };
 		93016A011F29CC8B00C720B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930169FF1F29CC8B00C720B7 /* ViewController.swift */; };
 		93016A041F29CCEB00C720B7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93016A031F29CCEB00C720B7 /* ProfileViewController.swift */; };
-		9396F3711F10B25C00DA2F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9396F36F1F10B25C00DA2F89 /* Main.storyboard */; };
 		9396F3731F10B25C00DA2F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9396F3721F10B25C00DA2F89 /* Assets.xcassets */; };
 		9396F3761F10B25C00DA2F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9396F3741F10B25C00DA2F89 /* LaunchScreen.storyboard */; };
 		9396F3811F10B25D00DA2F89 /* QFTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396F3801F10B25D00DA2F89 /* QFTVTests.swift */; };
@@ -45,7 +44,6 @@
 		930169FF1F29CC8B00C720B7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		93016A031F29CCEB00C720B7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		9396F3681F10B25C00DA2F89 /* QFTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9396F3701F10B25C00DA2F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9396F3721F10B25C00DA2F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		9396F3751F10B25C00DA2F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9396F3771F10B25C00DA2F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
@@ -110,6 +108,7 @@
 		930169F41F29CB9D00C720B7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				930658431F3169FA003ABCEC /* View */,
 				930169F81F29CC0600C720B7 /* Controller */,
 			);
 			name = Main;
@@ -145,7 +144,6 @@
 		930169FD1F29CC5F00C720B7 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				9396F36F1F10B25C00DA2F89 /* Main.storyboard */,
 				9396F3721F10B25C00DA2F89 /* Assets.xcassets */,
 				9396F3741F10B25C00DA2F89 /* LaunchScreen.storyboard */,
 				9396F3771F10B25C00DA2F89 /* Info.plist */,
@@ -161,6 +159,21 @@
 				93016A031F29CCEB00C720B7 /* ProfileViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		930658431F3169FA003ABCEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				930658441F3169FA003ABCEC /* SuBPageView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		930658441F3169FA003ABCEC /* SuBPageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SuBPageView;
 			sourceTree = "<group>";
 		};
 		9396F35F1F10B25C00DA2F89 = {
@@ -326,7 +339,6 @@
 			files = (
 				9396F3761F10B25C00DA2F89 /* LaunchScreen.storyboard in Resources */,
 				9396F3731F10B25C00DA2F89 /* Assets.xcassets in Resources */,
-				9396F3711F10B25C00DA2F89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,15 +404,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9396F36F1F10B25C00DA2F89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9396F3701F10B25C00DA2F89 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		9396F3741F10B25C00DA2F89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
